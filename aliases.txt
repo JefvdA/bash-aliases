@@ -1,0 +1,17 @@
+# GIT aliases
+alias gs="git status"
+alias gl="git log"
+alias glo="git log oneline"
+alias gd="git diff"
+alias ga="git add"
+alias gcm="git commit -m"
+alias gca="git commit --amend"
+alias gr="git restore HEAD~1"
+alias gp="git push"
+alias gpo="git push -u origin HEAD"
+alias gpull="git pull"
+alias gcb="git checkout -b"
+alias gb="git branch"
+
+# Docker aliases
+alias node-dev="docker run --rm --mount type=bind,source=".",target="/app" -w /app -it node:18.15-alpine /bin/sh"
