@@ -13,6 +13,7 @@ alias gpull="git pull"
 alias gc="git checkout"
 alias gcb="git checkout -b"
 alias gb="git branch"
+alias gcp="git cherry-pick"
 
 # Docker aliases
 alias node-dev="docker run --rm --user $UID --mount type=bind,source=$PWD,target=$PWD -w $PWD -p 3000:3000 -it node:18.15-alpine /bin/sh"
